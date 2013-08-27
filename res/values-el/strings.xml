@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">Tichu Card Tracker</string>
+    <string name="app_name">Tichu Card Tracker</string>
+    <string name="newGame">Νέο Παιχνίδι</string>
+    <string name="language">Γλώσσα</string>
+    <string name="languageText">Διάλεξε Γλώσσα</string>
+    <string name="vibration">Δόνηση</string>
+    <string name="vibrationText">Επιλογή Δόνησης</string>
+    <string name="settings">Επιλογές</string>
+    <string name="exit">Έξοδος</string>
+    <string name="endgame">Τέλος Παιχνιδιού</string>
+    <string name="about">Πληροφορίες</string>
+    <string name="cardStats">Στατιστικά Κάρτας</string>
+    <string name="continueGame">Συνέχεια</string>
+    <string name="cardsRemaining">Χρώματα:</string>
+    <string name="removeButton">Αφαίρεση Καρτών</string>
+    <string name="startingRackTitle">Διάλεξε τα χαρτιά σου</string>
+    <string name="removeCardsTitle">Διάλεξε ένα ή περισσότερα</string>
+    <string name="aboutAuthor">Συντάκτης: Γεώργιος Πίσκας</string>
+    <string name="aboutVersion">Έκδοση 1.54</string>
+    <string name="updatesVersion">Τρέχουσα έκδοση: 1.5</string>
+    <string name="aboutEmail">geopiskas@gmail.com</string>
+    <string name="aboutPlease">Παρακαλώ αναφέρετε προβλήματα ή προτάσεις στη παραπάνω διεύθυνση. Μή ξεχάσετε να βαθμολογήσετε!</string>
+    <string name="aboutLV">Πατήστε το κουμπί επιλογών για να ρυθμίσετε γλώσσα, δόνηση και ενημερώσεις.</string>
+    <string name="aboutText">Η εφαρμογή αυτή σας βοηθάει να θυμάστε τι χαρτιά έχουν παιχτεί σε μια παρτίδα Tichu. Γνωρίζει ανά πάσα στιγμή τι υπάρχει και τι όχι, χωρίς εσείς να απομνημονεύεις τίποτα! Όταν παιχτούν χαρτιά, αφαιρέστε τα ώστε να ενημερώσετε την εφαρμογή.</string>
+    <string name="back">Πίσω</string>
+    <string name="languages">languages</string>
+    <string name="tags">tags</string>
+	<string name="updatesCheck">Έλεγχος για ενημερώσεις</string>
+	<string name="updateError">Κάτι πήγε στραβά! :/</string>
+	<string name="restartPrompt">Ίσως χρειαστεί να επαννεκινήστε την εφαρμογή.</string>
+	
+</resources>

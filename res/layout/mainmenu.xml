@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/backcard"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:src="@drawable/title" />
+
+    <Button
+        android:id="@+id/bContinue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/continueGame"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bNewGame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/newGame"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/about"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/exit"
+        android:textSize="20dp" />
+
+    
+
+</LinearLayout>

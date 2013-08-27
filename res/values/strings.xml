@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">Tichu Card Tracker</string>
+    <string name="app_name">Tichu Card Tracker</string>
+    <string name="newGame">New Game</string>
+    <string name="language">Language</string>
+    <string name="languageText">Choose Language</string>
+    <string name="vibration">Vibration</string>
+    <string name="vibrationText">Toggle Vibration</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="endgame">Game Over</string>
+    <string name="about">About</string>
+    <string name="cardStats">Selected Card Stats</string>
+    <string name="continueGame">Continue</string>
+    <string name="cardsRemaining">Remaining Colors:</string>
+    <string name="removeButton">Remove Played Cards</string>
+    <string name="startingRackTitle">Select your cards</string>
+    <string name="removeCardsTitle">Select one or more cards</string>
+    <string name="aboutAuthor">Author: George Piskas</string>
+    <string name="aboutVersion">Version 1.5</string>
+    <string name="updatesVersion">Current version: 1.5</string>
+    <string name="aboutEmail">geopiskas@gmail.com</string>
+    <string name="aboutPlease">Please report any bugs or suggestions to the above address. Don\'t forget to rate!</string>
+    <string name="aboutLV">Press the options key to access language, vibration and update settings.</string>
+    <string name="aboutText">This app assists you to keep track of all cards during a Tichu game. It\'s aware of how many of each are left anytime. You won\'t need to memorizing anything! As soon as cards are played, remove them to keep the tracker up to date.</string>
+    <string name="back">Back</string>
+    <string name="languages">languages</string>
+    <string name="tags">tags</string>
+	<string name="updatesCheck">Check for updates</string>
+	<string name="updateError">Something went wrong! :/</string>
+	<string name="restartPrompt">An application restart may be needed.</string>
+	
+</resources>

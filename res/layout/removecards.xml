@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/backcard"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp" >
+
+        <ImageButton
+            android:id="@+id/bRackUndoRC"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/undo" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivRack0RC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/ivRack1RC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/ivRack2RC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/ivRack3RC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="75dp"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/ivRack4RC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/ivRack5RC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="125dp"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/ivRack6RC"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/back" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/bRackOkRC"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ok" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackdragonRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/dragon"
+                    android:tag="dragon" />
+
+                <ImageView
+                    android:id="@+id/ivRackphoenixRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/phoenix"
+                    android:tag="phoenix" />
+
+                <ImageView
+                    android:id="@+id/ivRackmahjonggRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mahjongg"
+                    android:tag="mahjongg" />
+
+                <ImageView
+                    android:id="@+id/ivRackdogsRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/dogs"
+                    android:tag="dogs" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackblaceRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/blace"
+                    android:tag="blace" />
+
+                <ImageView
+                    android:id="@+id/ivRackrdaceRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rdace"
+                    android:tag="rdace" />
+
+                <ImageView
+                    android:id="@+id/ivRackgnaceRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gnace"
+                    android:tag="gnace" />
+
+                <ImageView
+                    android:id="@+id/ivRackbuaceRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/buace"
+                    android:tag="buace" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackblkingRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/blking"
+                    android:tag="blking" />
+
+                <ImageView
+                    android:id="@+id/ivRackrdkingRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rdking"
+                    android:tag="rdking" />
+
+                <ImageView
+                    android:id="@+id/ivRackgnkingRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gnking"
+                    android:tag="gnking" />
+
+                <ImageView
+                    android:id="@+id/ivRackbukingRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/buking"
+                    android:tag="buking" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackblqueenRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/blqueen"
+                    android:tag="blqueen" />
+
+                <ImageView
+                    android:id="@+id/ivRackrdqueenRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rdqueen"
+                    android:tag="rdqueen" />
+
+                <ImageView
+                    android:id="@+id/ivRackgnqueenRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gnqueen"
+                    android:tag="gnqueen" />
+
+                <ImageView
+                    android:id="@+id/ivRackbuqueenRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/buqueen"
+                    android:tag="buqueen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbljackRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bljack"
+                    android:tag="bljack" />
+
+                <ImageView
+                    android:id="@+id/ivRackrdjackRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rdjack"
+                    android:tag="rdjack" />
+
+                <ImageView
+                    android:id="@+id/ivRackgnjackRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gnjack"
+                    android:tag="gnjack" />
+
+                <ImageView
+                    android:id="@+id/ivRackbujackRC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bujack"
+                    android:tag="bujack" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl10RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl10"
+                    android:tag="bl10" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd10RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd10"
+                    android:tag="rd10" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn10RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn10"
+                    android:tag="gn10" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu10RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu10"
+                    android:tag="bu10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl9RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl9"
+                    android:tag="bl9" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd9RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd9"
+                    android:tag="rd9" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn9RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn9"
+                    android:tag="gn9" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu9RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu9"
+                    android:tag="bu9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl8RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl8"
+                    android:tag="bl8" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd8RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd8"
+                    android:tag="rd8" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn8RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn8"
+                    android:tag="gn8" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu8RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu8"
+                    android:tag="bu8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl7RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl7"
+                    android:tag="bl7" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd7RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd7"
+                    android:tag="rd7" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn7RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn7"
+                    android:tag="gn7" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu7RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu7"
+                    android:tag="bu7" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl6RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl6"
+                    android:tag="bl6" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd6RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd6"
+                    android:tag="rd6" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn6RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn6"
+                    android:tag="gn6" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu6RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu6"
+                    android:tag="bu6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl5RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl5"
+                    android:tag="bl5" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd5RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd5"
+                    android:tag="rd5" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn5RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn5"
+                    android:tag="gn5" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu5RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu5"
+                    android:tag="bu5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl4RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl4"
+                    android:tag="bl4" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd4RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd4"
+                    android:tag="rd4" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn4RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn4"
+                    android:tag="gn4" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu4RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu4"
+                    android:tag="bu4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl3RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl3"
+                    android:tag="bl3" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd3RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd3"
+                    android:tag="rd3" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn3RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn3"
+                    android:tag="gn3" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu3RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu3"
+                    android:tag="bu3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp" >
+
+                <ImageView
+                    android:id="@+id/ivRackbl2RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bl2"
+                    android:tag="bl2" />
+
+                <ImageView
+                    android:id="@+id/ivRackrd2RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rd2"
+                    android:tag="rd2" />
+
+                <ImageView
+                    android:id="@+id/ivRackgn2RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gn2"
+                    android:tag="gn2" />
+
+                <ImageView
+                    android:id="@+id/ivRackbu2RC"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bu2"
+                    android:tag="bu2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
