@@ -8,4 +8,4 @@ This application was created in order to assist you in the card game Tichu. What
 
 The repository structure is based on the Eclipse IDE android project layout. You can import the code there and start coding!
 
-Tichu Card Tracker <br> Copyright (C) 2013  George Piskas
+Tichu Card Tracker <br> Copyright (C) 2013  George Piskas 
